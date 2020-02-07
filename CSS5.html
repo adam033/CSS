@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>CSS 5</title>
+<style media="screen">
+    .container{
+        width: 50%;
+        height: 200px;
+        overflow: auto;
+        margin-left: 0 auto;
+    }
+    .static{position: static; border: 2px solid green;}
+    .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px;
+        bottom: 0 ;
+    }
+    .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px;}
+    .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0;}
+    .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top: 0;
+        left: 20px;
+        background: darkblue;
+        color: white;
+    }
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="sticky">
+                Ini adalah contoh posisi Sticky
+            </p>
+            <p class="static">
+                <b>Ini adalah contoh dari position static</b><br>
+                Berbulan-bulan sudah aku menanti panggilan kerja. Hari-hariku terasa seperti penuh kebingungan dan tanpa arah.
+                Bahkan, kerjaanku hanya luntang luntung tak karuan di rumah. Mengalami kebingungan harus melakukan apa. Ingin memulai usaha namun tak punya modal.
+
+                Pada suatu hari, aku berniat untuk berjumpa dengan sahabt untuk menceritakan masalahku ini. 
+                Ketika sedang berada di jalan menuju rumah sahabatku, tepatnya di bagian samping jalan ujung dari tortoar, aku melihat sebuah dompet berwarna cokelat.
+            </p>
+            <p class="relative">
+                <b>Ini adalah contoh dari position relative</b><br>
+                Berbulan-bulan sudah aku menanti panggilan kerja. Hari-hariku terasa seperti penuh kebingungan dan tanpa arah.
+                Bahkan, kerjaanku hanya luntang luntung tak karuan di rumah. Mengalami kebingungan harus melakukan apa. Ingin memulai usaha namun tak punya modal.
+
+                Pada suatu hari, aku berniat untuk berjumpa dengan sahabt untuk menceritakan masalahku ini. 
+                Ketika sedang berada di jalan menuju rumah sahabatku, tepatnya di bagian samping jalan ujung dari tortoar, aku melihat sebuah dompet berwarna cokelat.
+            </p>
+            <p class="absolute">
+                <b>Ini adalah contoh dari position absolute</b><br>
+                Berbulan-bulan sudah aku menanti panggilan kerja. Hari-hariku terasa seperti penuh kebingungan dan tanpa arah.
+                Bahkan, kerjaanku hanya luntang luntung tak karuan di rumah. Mengalami kebingungan harus melakukan apa. Ingin memulai usaha namun tak punya modal.
+
+                Pada suatu hari, aku berniat untuk berjumpa dengan sahabt untuk menceritakan masalahku ini. 
+                Ketika sedang berada di jalan menuju rumah sahabatku, tepatnya di bagian samping jalan ujung dari tortoar, aku melihat sebuah dompet berwarna cokelat.
+            </p>
+            <p class="fixed">
+                Ini adalah contoh dari position fixed
+            </p>
+        </div>
+    </body>
+</html>
